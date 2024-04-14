@@ -47,7 +47,7 @@ export default function Create() {
 
     return (
         <div className="container">
-            <h1>券発行フォーム</h1>
+            <h1>券発行</h1>
             <form className="needs-validation" onSubmit={onSubmitCreate}>
                 <div className="form-floating mb-3">
                     <input className="form-control form-control-lg" type="number" id="number" name="number" required minLength={1} maxLength={10}/>
